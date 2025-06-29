@@ -51,7 +51,7 @@ class DoctorAppointmentAgent:
         
         goto = response["next"]
         
-        print("********************************this is my goto*************************")
+        print("********************************this is my go to*************************")
         print(goto)
         
         print("********************************")
