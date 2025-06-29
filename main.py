@@ -45,11 +45,11 @@ def execute_agent(user_input: UserQuery):
     }
     # Invoke the agent with the prepared data
     # Adjust recursion limit if necessary
-    # Note: The recursion limit is set to 20, which should be sufficient for most workflows.
+    # Note: The recursion limit is set to 50, which should be sufficient for most workflows.
     # If you encounter issues with recursion depth, you can increase this limit.
     # However, be cautious with very high limits as it may lead to infinite loops.
-    # The recursion limit is set to 20 to prevent infinite loops in the agent's reasoning
+    # The recursion limit is set to 50 to prevent infinite loops in the agent's reasoning
     # and to ensure that the agent can handle complex queries without running into recursion depth errors.
 
-    response = app_graph.invoke(query_data,config={"recursion_limit": 20})
+    response = app_graph.invoke(query_data,config={"recursion_limit": 50})
     return {"messages": response["messages"]}
