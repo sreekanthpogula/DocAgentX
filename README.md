@@ -150,6 +150,8 @@ DocAgentX/
     ├── availability.csv
     └── multiagent_system.ipynb # Development notebook
 ```
+![alt text](<Assets/Screenshot 2025-06-29 at 10.25.02 PM.png>)
+![alt text](<Assets/Screenshot 2025-06-29 at 10.25.12 PM.png>)
 
 ## Agent Architecture
 
