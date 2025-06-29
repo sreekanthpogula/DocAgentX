@@ -13,10 +13,10 @@ def get_requirements() -> List[str]:
         return []
 
 setup(
-    name="doctor-appointment-agentic",
+    name="docagent-x",
     version="0.0.1",
-    author="Sunny Savita",
-    author_email="snshrivas3365@gmail.com",
+    author="Sreekanth Pogula",
+    author_email="sreekanth.pogula2001@gmail.com",
     packages=find_packages(),
     install_requires=get_requirements(),
     python_requires=">=3.10",  # Ensure compatible Python version

@@ -3,7 +3,7 @@ import requests
 
 API_URL = "http://127.0.0.1:8003/execute" 
 
-st.title("🩺 Doctor Appointment System")
+st.title("🩺 Docagentx - AI Doctor Appointment System")
 
 user_id = st.text_input("Enter your ID number:", "")
 query = st.text_area("Enter your query:", "Can you check if a dentist is available tomorrow at 10 AM?")

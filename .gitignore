@@ -57,6 +57,8 @@ Pipfile.lock
 terraform.tfvars.json
 # Python virtual environments
 venv/
+.venv/
+env/
 .env
 .env.*
 __pycache__/
